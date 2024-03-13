@@ -1,0 +1,49 @@
+.proyectos{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+}
+
+.proyectos a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 1vh;
+    margin: 1vh 1vh 1vh 1vh;
+}
+
+.redes{
+    padding: 2vh;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    
+
+}
+
+.redes a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 1vh;
+}
+
+.cara{
+    float: left;
+}
+
+.descripcion h1{
+    display: block;
+}
+
+.descripcion p{
+    display:  block;
+}
