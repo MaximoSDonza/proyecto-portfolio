@@ -1,5 +1,7 @@
 body{
-
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
     background-color: #D9DDE7;
     overflow-x: none;
 }
@@ -63,8 +65,9 @@ body{
     flex-wrap: wrap;
     flex-direction: column;
     background-color: white;
-    border: 2px solid white;
+    border: 2px solid cadetblue;
     border-radius: 2vh;
+    margin-left: 10vh;
 }
 
 .descripcion img{
@@ -72,15 +75,8 @@ body{
     border-radius: 50%;
 }
 
-.descripcion h4{
+.descripcion h3{
     height: 5vh;
-    background-color: aqua;
-}
-
-.descripcion p{
-    background-color: blue;
-    width: 100vh;
-    height: 10vh;
 }
 
 .cuerpo{
@@ -89,6 +85,7 @@ body{
 }
 
 .saludo{
+    padding: 5vh;
     margin-left: auto;
     margin-right: auto;
     height: 10vh;
@@ -96,12 +93,37 @@ body{
     text-align: center;
     background-color: white;
     border-radius: 1vh;
+    border: 2px solid cadetblue;
+    font-size: 10vh;
+}
+
+
+.tecnologias{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.tecnologias ul{
+    list-style-type: none;
+}
+
+.tecnologias li{
+    margin: 1vh 1vh 1vh 1vh;
 }
 
 .costado{
+    border: 2px solid cadetblue;
+    padding: 2vh;
+    margin-left: 20vh;
     border-radius: 1vh;
     text-align: center;
-    margin-top: 2vh;
     background-color: white;
     float: right;
+}
+
+.p-info{
+    width: 100vh;
+    height: 10vh;
+    margin-right: 5vh;
 }
