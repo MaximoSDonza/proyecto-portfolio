@@ -1,3 +1,9 @@
+body{
+
+    background-color: #D9DDE7;
+
+}
+
 .proyectos{
     background-color: aqua;
     display: flex;
@@ -38,12 +44,19 @@
 
 .cara{
     float: left;
+    width: 25vh;
+    height: 30vh;
 }
 
+.descripcion{
+
+    display: flex;
+
+}
 .descripcion h1{
-    display: block;
+    flex-direction: column;
 }
 
 .descripcion p{
-    display:  block;
+    flex-direction: column;
 }
