@@ -1,45 +1,53 @@
 body{
 
     background-color: #D9DDE7;
-
+    overflow-x: none;
 }
 
 .proyectos{
-    background-color: aqua;
+    margin-bottom: 100px;
+    background-color: white;
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
     align-items: center;
     align-content: center;
+    border-radius: 1vh;
 }
 
 .proyectos a{
     text-align: center;
     text-decoration: none;
-    color: black;
-    border: 2px solid black;
+    color: cadetblue;
+    border: 2px solid cadetblue;
+    border-radius: 1vh;
     padding: 1vh;
     margin: 1vh 1vh 1vh 1vh;
 }
 
 .redes{
-    padding: 2vh;
-    background-color: red;
+    padding-top: 2vh;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     align-content: center;
-    
+    border-radius: 1vh;
 
 }
 
 .redes a{
     text-decoration: none;
-    color: black;
-    border: 2px solid black;
+    color: cadetblue;
+    border: 2px solid cadetblue;
     padding: 1vh;
+    border-radius: 1vh;
+}
+
+.text{
+    overflow: hidden;
 }
 
 .cara{
@@ -49,14 +57,51 @@ body{
 }
 
 .descripcion{
-
+    height: 50vh;
+    height: 50vh;
     display: flex;
-
-}
-.descripcion h1{
+    flex-wrap: wrap;
     flex-direction: column;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 2vh;
+}
+
+.descripcion img{
+    float: left;
+    border-radius: 50%;
+}
+
+.descripcion h4{
+    height: 5vh;
+    background-color: aqua;
 }
 
 .descripcion p{
-    flex-direction: column;
+    background-color: blue;
+    width: 100vh;
+    height: 10vh;
+}
+
+.cuerpo{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.saludo{
+    margin-left: auto;
+    margin-right: auto;
+    height: 10vh;
+    width: 100vh;
+    text-align: center;
+    background-color: white;
+    border-radius: 1vh;
+}
+
+.costado{
+    border-radius: 1vh;
+    text-align: center;
+    margin-top: 2vh;
+    background-color: white;
+    float: right;
 }
