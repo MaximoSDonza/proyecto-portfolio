@@ -2,7 +2,6 @@ body{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
-    background-color: #D9DDE7;
     overflow-x: none;
 }
 
@@ -59,6 +58,7 @@ body{
 }
 
 .descripcion{
+    padding: 10vh;
     height: 50vh;
     height: 50vh;
     display: flex;
@@ -123,7 +123,7 @@ body{
 }
 
 .p-info{
-    width: 100vh;
-    height: 10vh;
-    margin-right: 5vh;
+    display: block;
+    width: 80%;
+    margin-right: 5%;
 }
