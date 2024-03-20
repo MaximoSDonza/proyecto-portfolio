@@ -12,7 +12,7 @@ if(hora>=5 && hora<12){
     document.getElementById('saludo').innerHTML = 'Buenas tardes'
     root.style.setProperty('--bgcolor','#ffffb6');
     root.style.setProperty('--bcolor','#efdd6c');
-    root.style.setProperty('--bodycolor','#f4e985');
+    root.style.setProperty('--bodycolor','#e9d253');
 }else{
     document.getElementById('saludo').innerHTML = 'Buenas noches'
     root.style.setProperty('--bgcolor','#a7a7a7');

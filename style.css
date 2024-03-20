@@ -13,6 +13,15 @@ body{
     background-color: var(--bodycolor);
 }
 
+body::-webkit-scrollbar{
+    background-color: var(--bgcolor);
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: var(--bodycolor);
+    border: 2px solid var(--bgcolor);
+}
+
 .proyectos{
     margin-bottom: 100px;
     background-color: var(--bgcolor);
@@ -38,8 +47,9 @@ body{
     padding-top: 2vh;
     background-color: var(--bgcolor);
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     align-content: center;
     border-radius: 1vh;
@@ -59,14 +69,8 @@ body{
     overflow: hidden;
 }
 
-.cara{
-    float: left;
-    width: 25vh;
-    height: 30vh;
-}
-
 .descripcion{
-    padding: 10vh;
+    padding: 5vh;
     height: 50vh;
     height: 50vh;
     display: flex;
@@ -78,9 +82,16 @@ body{
     margin-left: 10vh;
 }
 
-.descripcion img{
+.cara{
+    margin-right: 2%;
+}
+
+.cara img{
+    width: 20vh;
+    height: 20vh;
     float: left;
     border-radius: 50%;
+    background-color: aqua;
 }
 
 .descripcion h3{
@@ -98,6 +109,7 @@ body{
     margin-right: auto;
     height: 10vh;
     width: 100vh;
+    margin-top: 2vh;
     text-align: center;
     background-color: var(--bgcolor);
     border-radius: 1vh;
@@ -121,10 +133,11 @@ body{
 }
 
 .costado{
+    position:sticky;
     border: 2px solid var(--bcolor);
-    padding: 2vh;
+    padding: 1vh;
     margin-left: 10%;
-    margin-right: 5vh;
+    margin-right: 2%;
     border-radius: 1vh;
     text-align: center;
     background-color: var(--bgcolor);
