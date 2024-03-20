@@ -38,21 +38,21 @@ body{
     padding-top: 2vh;
     background-color: var(--bgcolor);
     display: flex;
-    flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
     border-radius: 1vh;
-
 }
 
 .redes a{
     text-decoration: none;
     color: black;
+    margin: 1vh;
     border: 2px solid var(--bcolor);
     padding: 1vh;
     border-radius: 1vh;
+    transition: all 0.2s ease-in 0s;
 }
 
 .text{
@@ -123,11 +123,22 @@ body{
 .costado{
     border: 2px solid var(--bcolor);
     padding: 2vh;
-    margin-left: 20vh;
+    margin-left: 10%;
+    margin-right: 5vh;
     border-radius: 1vh;
     text-align: center;
     background-color: var(--bgcolor);
     float: right;
+}
+
+.costado a{
+    transition: all 0.2s ease-in 0s;
+}
+
+.costado a:hover{
+    background-color: var(--bodycolor);
+    color: var(--bgcolor);
+    transform: scale(1.2);
 }
 
 .p-info{
