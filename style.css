@@ -159,3 +159,38 @@ body::-webkit-scrollbar-thumb{
     width: 80%;
     margin-right: 5%;
 }
+
+/* RESPONSIVE MEDIA QUERY */
+@media (max-width: 800px){
+    .cara{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cuerpo{
+        flex-direction: column;
+    }
+
+    .costado{
+        margin-top: 2vh;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .descripcion{
+        padding: 5vh;
+        height: 95%;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .saludo{
+        height: 10vh;
+        width: 30vh;
+        font-size: 5vh;
+    }
+
+    .tecnologias{
+        flex-direction: column;
+    }
+}
