@@ -71,15 +71,15 @@ body::-webkit-scrollbar-thumb{
 
 .descripcion{
     padding: 5vh;
-    height: 50vh;
-    height: 50vh;
+    height: 50%;
+    height: 80%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     background-color: var(--bgcolor);
     border: 2px solid var(--bcolor);
     border-radius: 2vh;
-    margin-left: 10vh;
+    margin-left: 5%;
 }
 
 .cara{
@@ -107,8 +107,8 @@ body::-webkit-scrollbar-thumb{
     padding: 5vh;
     margin-left: auto;
     margin-right: auto;
-    height: 10vh;
-    width: 100vh;
+    height: 10%;
+    width: 90%;
     margin-top: 2vh;
     text-align: center;
     background-color: var(--bgcolor);
@@ -136,7 +136,7 @@ body::-webkit-scrollbar-thumb{
     position:sticky;
     border: 2px solid var(--bcolor);
     padding: 1vh;
-    margin-left: 10%;
+    margin-left: 4%;
     margin-right: 2%;
     border-radius: 1vh;
     text-align: center;
@@ -158,6 +158,30 @@ body::-webkit-scrollbar-thumb{
     display: block;
     width: 80%;
     margin-right: 5%;
+}
+
+.ref{
+    text-align: center;
+}
+
+.referencias{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.referencias .card{
+    text-align: center;
+    background-color: var(--bgcolor);
+    border: 2px solid var(--bcolor);
+    border-radius: 2vh;
+    width: 20%;
+}
+
+.referencias .card a{
+    text-decoration: none;
+    color: black;
 }
 
 /* RESPONSIVE MEDIA QUERY */
