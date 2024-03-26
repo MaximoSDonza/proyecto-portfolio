@@ -1,7 +1,8 @@
+/* PANTALLA DE CARGA */
 #contenedor_carga{
     background-color: var(--bodycolor);
-    height: 100%;
-    width: 100%;
+    height: 500%;
+    width: 500%;
     position: fixed;
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
@@ -31,7 +32,7 @@
     from { transform: rotate(0deg);}
     to{transform: rotate(360deg);}
 }
-
+/* FIN PANTALLA DE CARGA */
 :root{
     --bodycolor: #ffffff;
     --bgcolor: #ffffff;
@@ -218,7 +219,7 @@ body::-webkit-scrollbar-thumb{
     color: black;
 }
 
-.referencias .card img{
+.referencias .card a img{
     width: 40%;
     height: 50%;
 }
@@ -272,3 +273,5 @@ body::-webkit-scrollbar-thumb{
         height: 50%;
     }
 }
+
+/* FIN RESPONSIVE MEDIA QUERY */
