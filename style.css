@@ -1,8 +1,8 @@
 /* PANTALLA DE CARGA */
 #contenedor_carga{
     background-color: var(--bodycolor);
-    height: 500%;
-    width: 500%;
+    height: 100%;
+    width: 100%;
     position: fixed;
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
