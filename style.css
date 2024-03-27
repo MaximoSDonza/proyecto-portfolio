@@ -4,6 +4,10 @@
     height: 100%;
     width: 100%;
     position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease;
@@ -41,6 +45,7 @@
 }
 
 body{
+    margin-top: 0;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -211,7 +216,8 @@ body::-webkit-scrollbar-thumb{
     background-color: var(--bgcolor);
     border: 2px solid var(--bcolor);
     border-radius: 2vh;
-    width: 20%;
+    padding: 0;
+    width: 15%;
 }
 
 .referencias .card a{
@@ -220,8 +226,12 @@ body::-webkit-scrollbar-thumb{
 }
 
 .referencias .card a img{
-    width: 40%;
+    width: 50%;
     height: 50%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 2vh;
+    border-radius: 50%;
 }
 
 /* RESPONSIVE MEDIA QUERY */
