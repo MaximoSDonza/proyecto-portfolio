@@ -122,8 +122,15 @@ body::-webkit-scrollbar-thumb{
     margin-left: 5%;
 }
 
+.text .cara{
+    margin-right: 5%;
+}
 .cara{
     margin-right: 2%;
+}
+
+#cara{
+    display: none;
 }
 
 .cara img{
@@ -196,7 +203,7 @@ body::-webkit-scrollbar-thumb{
 
 .p-info{
     display: block;
-    width: 80%;
+    width: 100%;
     margin-right: 5%;
 }
 
@@ -236,6 +243,17 @@ body::-webkit-scrollbar-thumb{
 
 /* RESPONSIVE MEDIA QUERY */
 @media (max-width: 800px){
+    .text .cara{
+        display: none;
+    }
+
+    #cara{
+        display: block;
+    }
+
+    body{
+        text-align: center;
+    }
     .cara{
         margin-left: auto;
         margin-right: auto;
