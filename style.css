@@ -111,8 +111,8 @@ body::-webkit-scrollbar-thumb{
 
 .descripcion{
     padding: 5vh;
-    height: 50%;
-    height: 80%;
+    width: 80%;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -123,10 +123,14 @@ body::-webkit-scrollbar-thumb{
 }
 
 .text .cara{
-    margin-right: 5%;
+    width: 15%;
+    float: right;
+    display: flex;
+    margin-left: 50%;
 }
-.cara{
-    margin-right: 2%;
+
+.text .cara img{
+    float: left;
 }
 
 #cara{
@@ -134,11 +138,9 @@ body::-webkit-scrollbar-thumb{
 }
 
 .cara img{
-    width: 20vh;
     height: 20vh;
-    float: left;
+    width: 20vh;
     border-radius: 50%;
-    background-color: aqua;
 }
 
 .descripcion h3{
@@ -241,6 +243,16 @@ body::-webkit-scrollbar-thumb{
     border-radius: 50%;
 }
 
+.cancion{
+    margin-top: 1%;
+    margin-left: 1%;
+    position:fixed;
+    top: 0;
+    left:0;
+    bottom: 0;
+    right: 0;
+}
+
 /* RESPONSIVE MEDIA QUERY */
 @media (max-width: 800px){
     .text .cara{
@@ -299,6 +311,10 @@ body::-webkit-scrollbar-thumb{
     .referencias .card img{
         width: 60%;
         height: 50%;
+    }
+
+    .cancion{
+        display: none;
     }
 }
 
