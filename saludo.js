@@ -13,21 +13,15 @@ function canrandom(array){
 }
 
 if(hora>=5 && hora<12){
+    root.setAttribute('data-theme', 'light')
     document.getElementById('saludo').innerHTML = 'Buenos Dias'
-    root.style.setProperty('--bgcolor','#daffff');
-    root.style.setProperty('--bcolor','#c0ecf9');
-    root.style.setProperty('--bodycolor','#a7d9f3');
     cancion.src = candia[canrandom(candia)];
 }else if(hora>=12 && hora<20){
+    root.setAttribute('data-theme', 'amarillo')
     document.getElementById('saludo').innerHTML = 'Buenas Tardes'
-    root.style.setProperty('--bgcolor','#ffffb6');
-    root.style.setProperty('--bcolor','#efdd6c');
-    root.style.setProperty('--bodycolor','#e9d253');
     cancion.src = cantarde[canrandom(cantarde)];
 }else{
+    root.setAttribute('data-theme', 'dark')
     document.getElementById('saludo').innerHTML = 'Buenas Noches'
-    root.style.setProperty('--bgcolor','#a7a7a7');
-    root.style.setProperty('--bcolor','#545454');
-    root.style.setProperty('--bodycolor','#2c2c2c');
     cancion.src = cannoche[canrandom(cannoche)];
 }
